@@ -1,0 +1,5 @@
+{
+  "name": "Yaron Weisberg Project Management",
+  "description": "A project management interface to track the development of a CRM and automation system for Yaron Weisberg. It visualizes the project plan, phases, and task status.",
+  "requestFramePermissions": []
+}
