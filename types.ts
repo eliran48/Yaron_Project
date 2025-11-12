@@ -1,6 +1,3 @@
-// FIX: Import React to resolve namespace error for React.ComponentType.
-import React from 'react';
-
 export enum TaskStatus {
   Pending = 'ממתין',
   InProgress = 'בתהליך',
@@ -11,6 +8,7 @@ export interface Task {
   id: string;
   name: string;
   status: TaskStatus;
+  hours: number;
 }
 
 export interface Phase {
@@ -20,5 +18,5 @@ export interface Phase {
   goals: string[];
   tasks: Task[];
   status: TaskStatus;
-  icon: React.ComponentType<{ className?: string }>;
+  icon: string;
 }
